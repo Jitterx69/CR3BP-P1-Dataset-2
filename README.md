@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/1364467178.svg)](https://doi.org/10.5281/zenodo.24368897)
 
 ### Citation & Theoretical Foundation
-Based on: *Mean rotation and Conley–Zehnder indices of planar periodic orbit families in the Earth–Moon system* (2024).
+Based on: *Mean rotation and Conley–Zehnder indices of planar periodic orbit families in the Earth–Moon system* (2026).
 
 ---
 
