@@ -1,0 +1,56 @@
+{
+  "provenance": {
+    "dataset_version": "EM-CR3BP-NDA-v1.0",
+    "generation_timestamp_utc": "2026-09-11T13:12:47Z",
+    "platform": {
+      "system": "Darwin",
+      "release": "25.6.0",
+      "machine": "arm64",
+      "python_version": "3.9.6",
+      "python_compiler": "Clang 21.0.0 (clang-2100.1.1.101)"
+    },
+    "dependencies": {
+      "numpy_version": "1.26.4",
+      "scipy_version": "1.13.1"
+    },
+    "physical_parameters": {
+      "mu": 0.012150585609624,
+      "primary_1": "Earth (1 - mu)",
+      "primary_2": "Moon (mu)",
+      "primary_distance": 1.0,
+      "angular_velocity": 1.0,
+      "frame": "Synodic barycentric rotating",
+      "state_convention": "z = (q1, q2, p1, p2)",
+      "canonical_momentum": "p = qdot - Jq",
+      "reverser": "R = diag(1, -1, -1, 1)",
+      "hamiltonian": "H(q, p) = 0.5 |p|^2 + p . (Jq) - U(q)",
+      "jacobi_constant": "C = -2H"
+    },
+    "integrator_conventions": {
+      "full_period_integrator": "DOP853 (tolerance 1e-13) / Gauss-Legendre Order 6",
+      "samples_per_orbit": 4096,
+      "symplectic_form_2d": "dq1 ^ dp1 + dq2 ^ dp2",
+      "symplectic_form_reduced": "d xi ^ d eta"
+    },
+    "git_commit": "HEAD"
+  },
+  "total_orbits": 712,
+  "files": {
+    "L1_Lyapunov_archive.h5": {
+      "sha256": "66708a1aa21f1115ca33bcf46e0ce8ac9517f1c417450d1d05af33e93b0e23ce",
+      "size_bytes": 78067941
+    },
+    "L2_Lyapunov_archive.h5": {
+      "sha256": "89d295d2ed7b07b3b0d8ae09ce9bbcf8d687d4243ba66baa308b41fcb214dc19",
+      "size_bytes": 103123116
+    },
+    "DRO_archive.h5": {
+      "sha256": "7cdc60c3689b96c04fad2ac9227c6b77b09b5e516f5c9c5b7f47ef941ab4080a",
+      "size_bytes": 458063525
+    },
+    "golden_subset_archive.h5": {
+      "sha256": "4d4668534b59da0258950a602856aab30063125f4521b2d859148b8eae8e7377",
+      "size_bytes": 16564362
+    }
+  }
+}
